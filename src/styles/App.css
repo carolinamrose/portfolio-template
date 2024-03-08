@@ -1,0 +1,17 @@
+@import url(GlobalStyles.css);
+@import url(../components/Header/Header.css);
+@import url(../components/BannerSection/BannerSection.css);
+@import url(../components/AboutMeSection/AboutMeSection.css);
+@import url(../components/TechSection/TechSection.css);
+@import url(../components/ProjectSection/ProjectSection.css);
+@import url(../components/Footer/Footer.css);
+
+body {
+    background-color: var(--black);
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

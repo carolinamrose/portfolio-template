@@ -1,0 +1,33 @@
+.banner__container {
+    width: 950px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+    color: var(--white);
+    padding-top: 50px;
+}
+
+.banner__username {
+    color: var(--color-primary);
+}
+
+.banner__welcome {
+    font-size: var(--title-1);
+}
+
+.banner__button {
+    background: var(--color-primary);
+    width: 130px;
+    height: 39px;
+    border-radius: 12px;
+    border: none;
+    color: var(--white);
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.banner__button:hover {
+    background-color: var(--color-primary-hover);
+    cursor: pointer;
+}

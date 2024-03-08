@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+    font-family: 'Inter', sans-serif;
+
+    --color-primary: #6880FF;
+    --color-primary-hover: #7C91FF;
+
+    --white: #fff;
+    --black: #000;
+
+    --title-1: 42px;
+    --title-2: 36px;
+    --title-3: 22px;
+}

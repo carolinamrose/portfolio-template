@@ -1,0 +1,29 @@
+.footer__container {
+    width: 950px;
+    color: var(--white);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    margin: 40px 0 40px;
+}
+
+.footer__title{
+    font-size: var(--title-1);
+}
+
+.footer__social {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.copyright {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+}
